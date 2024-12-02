@@ -11,10 +11,10 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:q
-|2,0,1733182094,,"q"
 :wq
-|2,0,1733182088,,"wq"
+|2,0,1733182281,,"wq"
+:q
+|2,0,1733182269,,"q"
 :q!
 |2,0,1733140112,,"q!"
 
@@ -79,36 +79,80 @@
 |3,1,36,0,1,0,1733182059,"n"
 
 # File marks:
-'0  26  13  ~/testpod.yml
-|4,48,26,13,1733182094,"~/testpod.yml"
-'1  25  54  ~/playbook.yml
-|4,49,25,54,1733182088,"~/playbook.yml"
-'2  2  0  ~/index.html
-|4,50,2,0,1733182043,"~/index.html"
-'3  4  0  ~/Dockerfile
-|4,51,4,0,1733182038,"~/Dockerfile"
-'4  17  0  ~/Jenkinsfile
-|4,52,17,0,1733182034,"~/Jenkinsfile"
-'5  1  0  ~/Jenkinsfile
-|4,53,1,0,1733182027,"~/Jenkinsfile"
-'6  1  0  ~/Jenkinsfile
-|4,54,1,0,1733182027,"~/Jenkinsfile"
-'7  37  19  ~/testpod.yml
-|4,55,37,19,1733140155,"~/testpod.yml"
-'8  37  19  ~/testpod.yml
-|4,56,37,19,1733140155,"~/testpod.yml"
-'9  17  21  ~/testpod.yml
-|4,57,17,21,1733140139,"~/testpod.yml"
+'0  7  40  ~/Jenkinsfile
+|4,48,7,40,1733182281,"~/Jenkinsfile"
+'1  4  0  ~/Dockerfile
+|4,49,4,0,1733182269,"~/Dockerfile"
+'2  26  13  ~/testpod.yml
+|4,50,26,13,1733182094,"~/testpod.yml"
+'3  25  54  ~/playbook.yml
+|4,51,25,54,1733182088,"~/playbook.yml"
+'4  2  0  ~/index.html
+|4,52,2,0,1733182043,"~/index.html"
+'5  4  0  ~/Dockerfile
+|4,53,4,0,1733182038,"~/Dockerfile"
+'6  17  0  ~/Jenkinsfile
+|4,54,17,0,1733182034,"~/Jenkinsfile"
+'7  17  0  ~/Jenkinsfile
+|4,55,17,0,1733182034,"~/Jenkinsfile"
+'8  1  0  ~/Jenkinsfile
+|4,56,1,0,1733182027,"~/Jenkinsfile"
+'9  1  0  ~/Jenkinsfile
+|4,57,1,0,1733182027,"~/Jenkinsfile"
 
 # Jumplist (newest first):
+-'  7  40  ~/Jenkinsfile
+|4,39,7,40,1733182281,"~/Jenkinsfile"
+-'  17  0  ~/Jenkinsfile
+|4,39,17,0,1733182270,"~/Jenkinsfile"
+-'  4  0  ~/Dockerfile
+|4,39,4,0,1733182269,"~/Dockerfile"
+-'  4  0  ~/Dockerfile
+|4,39,4,0,1733182269,"~/Dockerfile"
 -'  26  13  ~/testpod.yml
 |4,39,26,13,1733182094,"~/testpod.yml"
+-'  26  13  ~/testpod.yml
+|4,39,26,13,1733182094,"~/testpod.yml"
+-'  26  13  ~/testpod.yml
+|4,39,26,13,1733182094,"~/testpod.yml"
+-'  26  13  ~/testpod.yml
+|4,39,26,13,1733182094,"~/testpod.yml"
+-'  37  19  ~/testpod.yml
+|4,39,37,19,1733182091,"~/testpod.yml"
+-'  37  19  ~/testpod.yml
+|4,39,37,19,1733182091,"~/testpod.yml"
+-'  37  19  ~/testpod.yml
+|4,39,37,19,1733182091,"~/testpod.yml"
 -'  37  19  ~/testpod.yml
 |4,39,37,19,1733182091,"~/testpod.yml"
 -'  25  54  ~/playbook.yml
 |4,39,25,54,1733182088,"~/playbook.yml"
 -'  25  54  ~/playbook.yml
 |4,39,25,54,1733182088,"~/playbook.yml"
+-'  25  54  ~/playbook.yml
+|4,39,25,54,1733182088,"~/playbook.yml"
+-'  25  54  ~/playbook.yml
+|4,39,25,54,1733182088,"~/playbook.yml"
+-'  25  54  ~/playbook.yml
+|4,39,25,54,1733182088,"~/playbook.yml"
+-'  25  54  ~/playbook.yml
+|4,39,25,54,1733182088,"~/playbook.yml"
+-'  25  54  ~/playbook.yml
+|4,39,25,54,1733182088,"~/playbook.yml"
+-'  25  54  ~/playbook.yml
+|4,39,25,54,1733182088,"~/playbook.yml"
+-'  33  61  ~/playbook.yml
+|4,39,33,61,1733182046,"~/playbook.yml"
+-'  33  61  ~/playbook.yml
+|4,39,33,61,1733182046,"~/playbook.yml"
+-'  33  61  ~/playbook.yml
+|4,39,33,61,1733182046,"~/playbook.yml"
+-'  33  61  ~/playbook.yml
+|4,39,33,61,1733182046,"~/playbook.yml"
+-'  33  61  ~/playbook.yml
+|4,39,33,61,1733182046,"~/playbook.yml"
+-'  33  61  ~/playbook.yml
+|4,39,33,61,1733182046,"~/playbook.yml"
 -'  33  61  ~/playbook.yml
 |4,39,33,61,1733182046,"~/playbook.yml"
 -'  33  61  ~/playbook.yml
@@ -121,6 +165,46 @@
 |4,39,2,0,1733182043,"~/index.html"
 -'  2  0  ~/index.html
 |4,39,2,0,1733182043,"~/index.html"
+-'  2  0  ~/index.html
+|4,39,2,0,1733182043,"~/index.html"
+-'  2  0  ~/index.html
+|4,39,2,0,1733182043,"~/index.html"
+-'  2  0  ~/index.html
+|4,39,2,0,1733182043,"~/index.html"
+-'  2  0  ~/index.html
+|4,39,2,0,1733182043,"~/index.html"
+-'  2  0  ~/index.html
+|4,39,2,0,1733182043,"~/index.html"
+-'  2  0  ~/index.html
+|4,39,2,0,1733182043,"~/index.html"
+-'  2  0  ~/index.html
+|4,39,2,0,1733182043,"~/index.html"
+-'  2  0  ~/index.html
+|4,39,2,0,1733182043,"~/index.html"
+-'  2  0  ~/index.html
+|4,39,2,0,1733182043,"~/index.html"
+-'  2  0  ~/index.html
+|4,39,2,0,1733182043,"~/index.html"
+-'  2  0  ~/index.html
+|4,39,2,0,1733182043,"~/index.html"
+-'  2  0  ~/index.html
+|4,39,2,0,1733182043,"~/index.html"
+-'  4  0  ~/Dockerfile
+|4,39,4,0,1733182038,"~/Dockerfile"
+-'  4  0  ~/Dockerfile
+|4,39,4,0,1733182038,"~/Dockerfile"
+-'  4  0  ~/Dockerfile
+|4,39,4,0,1733182038,"~/Dockerfile"
+-'  4  0  ~/Dockerfile
+|4,39,4,0,1733182038,"~/Dockerfile"
+-'  4  0  ~/Dockerfile
+|4,39,4,0,1733182038,"~/Dockerfile"
+-'  4  0  ~/Dockerfile
+|4,39,4,0,1733182038,"~/Dockerfile"
+-'  4  0  ~/Dockerfile
+|4,39,4,0,1733182038,"~/Dockerfile"
+-'  4  0  ~/Dockerfile
+|4,39,4,0,1733182038,"~/Dockerfile"
 -'  4  0  ~/Dockerfile
 |4,39,4,0,1733182038,"~/Dockerfile"
 -'  4  0  ~/Dockerfile
@@ -169,6 +253,38 @@
 |4,39,17,0,1733182034,"~/Jenkinsfile"
 -'  17  0  ~/Jenkinsfile
 |4,39,17,0,1733182034,"~/Jenkinsfile"
+-'  17  0  ~/Jenkinsfile
+|4,39,17,0,1733182034,"~/Jenkinsfile"
+-'  17  0  ~/Jenkinsfile
+|4,39,17,0,1733182034,"~/Jenkinsfile"
+-'  17  0  ~/Jenkinsfile
+|4,39,17,0,1733182034,"~/Jenkinsfile"
+-'  17  0  ~/Jenkinsfile
+|4,39,17,0,1733182034,"~/Jenkinsfile"
+-'  17  0  ~/Jenkinsfile
+|4,39,17,0,1733182034,"~/Jenkinsfile"
+-'  17  0  ~/Jenkinsfile
+|4,39,17,0,1733182034,"~/Jenkinsfile"
+-'  17  0  ~/Jenkinsfile
+|4,39,17,0,1733182034,"~/Jenkinsfile"
+-'  17  0  ~/Jenkinsfile
+|4,39,17,0,1733182034,"~/Jenkinsfile"
+-'  17  0  ~/Jenkinsfile
+|4,39,17,0,1733182034,"~/Jenkinsfile"
+-'  17  0  ~/Jenkinsfile
+|4,39,17,0,1733182034,"~/Jenkinsfile"
+-'  17  0  ~/Jenkinsfile
+|4,39,17,0,1733182034,"~/Jenkinsfile"
+-'  17  0  ~/Jenkinsfile
+|4,39,17,0,1733182034,"~/Jenkinsfile"
+-'  17  0  ~/Jenkinsfile
+|4,39,17,0,1733182034,"~/Jenkinsfile"
+-'  17  0  ~/Jenkinsfile
+|4,39,17,0,1733182034,"~/Jenkinsfile"
+-'  17  0  ~/Jenkinsfile
+|4,39,17,0,1733182034,"~/Jenkinsfile"
+-'  17  0  ~/Jenkinsfile
+|4,39,17,0,1733182034,"~/Jenkinsfile"
 -'  1  0  ~/Jenkinsfile
 |4,39,1,0,1733182027,"~/Jenkinsfile"
 -'  1  0  ~/Jenkinsfile
@@ -185,124 +301,23 @@
 |4,39,1,0,1733182027,"~/Jenkinsfile"
 -'  1  0  ~/Jenkinsfile
 |4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  1  0  ~/Jenkinsfile
-|4,39,1,0,1733182027,"~/Jenkinsfile"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  37  19  ~/testpod.yml
-|4,39,37,19,1733140155,"~/testpod.yml"
--'  17  21  ~/testpod.yml
-|4,39,17,21,1733140144,"~/testpod.yml"
--'  17  21  ~/testpod.yml
-|4,39,17,21,1733140144,"~/testpod.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/Jenkinsfile
+	*	1733182280	0
+	"	7	40
+	^	7	41
+	.	7	40
+	+	16	1
+	+	7	40
+
+> ~/Dockerfile
+	*	1733182267	0
+	"	4	0
+	^	4	0
+	.	3	16
+	+	3	16
 
 > ~/testpod.yml
 	*	1733182093	0
@@ -334,20 +349,6 @@
 	^	2	0
 	.	1	64
 	+	1	64
-
-> ~/Dockerfile
-	*	1733182037	0
-	"	4	0
-	^	4	0
-	.	3	16
-	+	3	16
-
-> ~/Jenkinsfile
-	*	1733182032	0
-	"	17	0
-	^	17	0
-	.	16	1
-	+	16	1
 
 > /etc/ansible/hosts
 	*	1733139741	0
