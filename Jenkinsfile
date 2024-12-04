@@ -4,7 +4,7 @@ pipeline {
     stage('Deploy Docker Image on Master') {
       environment {
         ANSIBLE_HOST_KEY_CHECKING = 'False'
-        ANSIBLE_PRIVATE_KEY_FILE = '/root/.ssh/ansible_key'
+        ANSIBLE_PRIVATE_KEY_FILE = '/root/.ssh/ansible.key'
       }
       steps {
         sh '''
