@@ -1,0 +1,46 @@
+---
+- name: Build and Push Docker image on Master
+  hosts: master
+  tasks:
+    # PlayBook 복사하기
+    - name: Copy Ansible Playbook to Master
+      copy:
+        src: playbook.yml  # Jenkins에서 가져올 파일 경로
+        dest: /root/playbook.yml                              # 복사해서 전달할 경로
+
+    # Deploy용 yml 복사하기
+    - name: Copy Ansible Deploy to Master
+      copy:
+        src: testpod.yml   # Jenkins에서 가져올 파일 경로
+        dest: /root/testpod.yml                               # 복사해서 전달할 경로
+
+    # Dockerfile 복사하기
+    - name: Copy Dockerfile to Master
+      copy:
+        src: Dockerfile
+        dest: /root/Dockerfile
+
+    # index.html 복사하기
+    - name: Copy index.html to Master
+      copy:
+        src: index.html
+        dest: /root/index.html
+  
+    # Docker 레지스트리에 로그인하기
+    - name: Log in to Docker Registry
+      command: docker login -u wonjune95 -p dnjswns95!!     # 아이디 비밀번호 확인하기
+
+    # Docker 이미지를 빌드하기
+    - name: Build Docker image
+      command: docker build -t wonjune95/wonjune:0913 .
+      args:
+        chdir: /root/                           # Dockerfile이 있는  경로
+
+    # Docker 이미지를 레지스트리에 푸시하기
+    - name: Push Docker image to Docker Registry
+      command: docker push wonjune95/wonjune:0913
+
+    # Kubernetes Deployment 적용
+    - name: Apply Deployment
+      command: kubectl apply -f /root/testpod.yml            # 멱등성을 적용시키기 위한 yml 파일
+
